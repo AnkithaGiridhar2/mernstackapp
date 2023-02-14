@@ -10,7 +10,7 @@ const app = express();
 
 //db connect 
 console.log(process.env.MONGODB_URI );
-mongoose.connect(process.env.MONGODB_URI || 'mongodb+srv://<username>:<password>@cluster0.urf42h2.mongodb.net/Ecommerce?retryWrites=true&w=majority', {
+mongoose.connect(process.env.MONGODB_URI || 'mongodb+srv://ankitha:DCJOll9xHYEEYaGU@cluster0.jldzlup.mongodb.net/?retryWrites=true&w=majority', {
     useNewUrlParser: true,
     useUnifiedTopology: true,
     useCreateIndex: true,
